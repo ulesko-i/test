@@ -72,3 +72,47 @@
         </tr>
     </tbody>
 </table>
+
+
+## HTML-3
+
+Таблица с проверкой визуализации объединения ячеек.
+
+<table border=0>
+    <tbody>
+        <tr>
+            <td rowspan=5>XXXXX1</td>
+            <td>text1-1</td>
+        </tr>
+        <tr>
+            <td>text1-2</td>
+        </tr>
+        <tr>
+            <td>text1-3</td>
+        </tr>
+        <tr>
+            <td>text1-4</td>
+        </tr>
+        <tr>
+            <td>text1-5</td>
+        </tr>
+        <tr>
+            <td rowspan=2>XXXXX2</td>
+            <td>text2-1</td>
+        </tr>
+        <tr>
+            <td>text2-2</td>
+        </tr>
+        <tr>
+            <td rowspan=2>XXXXX3</td>
+            <td>text3-1</td>
+        </tr>
+        <tr>
+            <td>text3-2</td>
+        </tr>
+        <tr>
+            <td>XXXXX4</td>
+            <td>text4-1</td>
+        </tr>
+    </tbody>
+</table>
